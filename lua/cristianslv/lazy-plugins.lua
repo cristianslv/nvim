@@ -1,11 +1,18 @@
-require("lazy").setup({
-  require "cristianslv.plugins.todo-comments",
-  require "cristianslv.plugins.guess-indent",
-  require "cristianslv.plugins.tokyonight",
-  require "cristianslv.plugins.telescope",
-  require "cristianslv.plugins.autopairs",
-  require "cristianslv.plugins.gitsigns",
-  require "cristianslv.plugins.lazydev",
+require('lazy').setup({
+  require 'cristianslv.plugins.nvim-treesitter',
+  require 'cristianslv.plugins.nvim-lspconfig',
+  require 'cristianslv.plugins.todo-comments',
+  require 'cristianslv.plugins.guess-indent',
+  require 'cristianslv.plugins.tokyonight',
+  require 'cristianslv.plugins.which-key',
+  require 'cristianslv.plugins.telescope',
+  require 'cristianslv.plugins.nvim-dap',
+  require 'cristianslv.plugins.gitsigns',
+  require 'cristianslv.plugins.lualine',
+  require 'cristianslv.plugins.harpoon',
+  require 'cristianslv.plugins.conform',
+  require 'cristianslv.plugins.lazydev',
+  require 'cristianslv.plugins.blink',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
