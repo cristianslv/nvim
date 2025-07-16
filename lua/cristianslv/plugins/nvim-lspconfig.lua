@@ -229,6 +229,7 @@ return {
           },
         },
       },
+      terraformls = {},
     }
 
     -- Ensure the servers and tools above are installed
