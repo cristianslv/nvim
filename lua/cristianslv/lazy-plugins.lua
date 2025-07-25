@@ -8,6 +8,7 @@ require('lazy').setup({
   require 'cristianslv.plugins.telescope',
   require 'cristianslv.plugins.nvim-dap',
   require 'cristianslv.plugins.gitsigns',
+  require 'cristianslv.plugins.copilot',
   require 'cristianslv.plugins.lualine',
   require 'cristianslv.plugins.harpoon',
   require 'cristianslv.plugins.conform',
