@@ -3,12 +3,6 @@ vim.g.maplocalleader = ' '
 
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
-vim.keymap.set('n', 'gJ', function()
-  vim.cmd [[m .+1<CR>==]]
-end)
-vim.keymap.set('n', 'gK', function()
-  vim.cmd [[m .-2<CR>==]]
-end)
 
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
@@ -60,7 +54,7 @@ vim.keymap.set('n', '<leader>jm', ':%!jq -c .<CR>', { desc = 'Minify JSON' })
 vim.keymap.set('n', '<leader>js', ':%!jq -c . | jq @json<CR>', { desc = 'Stringify JSON' })
 vim.keymap.set('n', '<leader>ju', ':%!jq -r fromjson<CR>', { desc = 'Unstringify JSON' })
 
-vim.keymap.set('n', ',st', function()
+vim.keymap.set('n', ',tt', function()
   vim.cmd.new()
   vim.cmd.wincmd 'J'
   vim.api.nvim_win_set_height(0, 12)
