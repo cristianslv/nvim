@@ -230,7 +230,6 @@ return {
         },
       },
       terraformls = {},
-      ts_ls = {},
       angularls = {},
     }
 
