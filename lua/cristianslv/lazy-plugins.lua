@@ -1,4 +1,5 @@
 require('lazy').setup({
+  require 'cristianslv.plugins.typescript-tools',
   require 'cristianslv.plugins.nvim-treesitter',
   require 'cristianslv.plugins.nvim-lspconfig',
   require 'cristianslv.plugins.todo-comments',
