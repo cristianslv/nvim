@@ -20,6 +20,7 @@ return { -- Highlight, edit, and navigate code
       'javascript',
       'typescript',
       'vue',
+      'json',
     },
     -- Autoinstall languages that are not installed
     auto_install = true,
