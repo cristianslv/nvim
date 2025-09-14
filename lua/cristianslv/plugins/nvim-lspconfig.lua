@@ -230,7 +230,7 @@ return {
         },
       },
       terraformls = {},
-      angularls = {},
+      clojure_lsp = {},
     }
 
     -- Ensure the servers and tools above are installed
