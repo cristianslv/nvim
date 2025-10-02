@@ -10,6 +10,7 @@ require('lazy').setup({
   require 'cristianslv.plugins.nvim-dap',
   require 'cristianslv.plugins.gitsigns',
   require 'cristianslv.plugins.copilot',
+  require 'cristianslv.plugins.conjure',
   require 'cristianslv.plugins.lualine',
   require 'cristianslv.plugins.harpoon',
   require 'cristianslv.plugins.conform',
